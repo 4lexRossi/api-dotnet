@@ -52,6 +52,15 @@ namespace Api.Data
                     i.AutoMap();
                     i.SetIgnoreExtraElements(true);
                 });
+            }
+            if (!BsonClassMap.IsClassMapRegistered(typeof(EscolhaUsuario)))
+            {
+                BsonClassMap.RegisterClassMap<EscolhaUsuario>(i =>
+                {
+                    i.MapIdField(x => x.Id).SetIdGenerator(StringObjectIdGenerator.Instance).SetSerializer(new StringSerializer(BsonType.ObjectId));
+                    i.AutoMap();
+                    i.SetIgnoreExtraElements(true);
+                });
             } 
         }
     }

@@ -60,7 +60,7 @@ namespace Api.Controllers
             Builders<Usuario>.Update.Set("nome", dto.Nome)
                                     .Set("password", dto.Password)
                                     .Set("dataNascimento", dto.DataNascimento)
-                                    .Set("email", dto.Email));
+                                    .Set("email", dto.Email));                                    
             
              return Ok("Cadastro atualizado com sucesso");
         }

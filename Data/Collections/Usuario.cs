@@ -1,5 +1,5 @@
 using System;
-using MongoDB.Driver.GeoJsonObjectModel;
+
 
 namespace Api.Data.Collections
 {
@@ -10,13 +10,15 @@ namespace Api.Data.Collections
             string nome,
             string password,
             DateTime dataNascimento,
-            string email)
+            string email  )
+                      
         {
             this.Id = id;
             this.Nome = nome;
             this.Password = password;
             this.DataNascimento = dataNascimento;
-            this.Email = email;
+            this.Email = email;                  
+
         }
         
         public string Id { get; set; }
@@ -24,6 +26,6 @@ namespace Api.Data.Collections
         public string Password { get; set; }
         public DateTime DataNascimento { get; set; }
         public string Email { get; set; }
-
-    }
+        
+        }
 }

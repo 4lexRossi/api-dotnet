@@ -8,9 +8,10 @@ namespace Api.Models
         public string Nome { get; set; }
         public string Password { get; set; }
         public DateTime DataNascimento { get; set; }
-        public string Email { get; set; }
+        public string Email { get; set; }        
 
-    }public class ProcessoDto
+    } 
+    public class ProcessoDto
     {
         public string Id { get; set; }
         public string NomeCliente { get; set; }
@@ -20,5 +21,11 @@ namespace Api.Models
         public string ProximoPasso { get; set; }
         public string LinkProcesso { get; set; }
 
+    }public class EscolhaUsuarioDto
+    {
+        public string Id { get; set; }        
+        public string Advogado { get; set; }
+        public string Cliente { get; set; }        
+        
     }
 }

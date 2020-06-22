@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alex/meus-projetos/squad1-batch2/api/api.csproj": {}
+    "/home/alex/meus-projetos/api-dotnet/api.csproj": {}
   },
   "projects": {
-    "/home/alex/meus-projetos/squad1-batch2/api/api.csproj": {
+    "/home/alex/meus-projetos/api-dotnet/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alex/meus-projetos/squad1-batch2/api/api.csproj",
+        "projectUniqueName": "/home/alex/meus-projetos/api-dotnet/api.csproj",
         "projectName": "api",
-        "projectPath": "/home/alex/meus-projetos/squad1-batch2/api/api.csproj",
+        "projectPath": "/home/alex/meus-projetos/api-dotnet/api.csproj",
         "packagesPath": "/home/alex/.nuget/packages/",
-        "outputPath": "/home/alex/meus-projetos/squad1-batch2/api/obj/",
+        "outputPath": "/home/alex/meus-projetos/api-dotnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alex/.nuget/NuGet/NuGet.Config"
